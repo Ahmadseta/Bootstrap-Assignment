@@ -1,0 +1,48 @@
+                                                                        Module (Bootstrap Basic & Advanced) – 6
+
+
+
+
+
+
+1]What are the advantages of Bootstrap? 
+ans>Easy to prevent repetitions among multiple projects.
+    Responsive design that can be used to adapt screen sizes and choose what shows and what doesn't on any given device.
+    Maintaining consistency among projects when using multiple developer teams.
+    Quick design of prototypes
+
+2]What is a Bootstrap Container, and how does it work? 
+ans> the most basic layout element in Bootstrap and are required when using our default grid system
+
+3]What are the default Bootstrap text settings? 
+ans> default font-size of 16px, and its line-height is 1.5.
+
+4]What do you know about the Bootstrap Grid System? 
+ans>uses a series of containers, rows, and columns to layout and align content
+
+5]What is the difference between Bootstrap 4 and Bootstrap 5 
+ans>The form elements in Bootstrap 4 have defaulted to the browser-provided view. However, in Bootstrap 5, the form elements have a custom design that enables them to have a consistent look           and feel in all browsers. The new form controls are based on completely semantic, standard form controls.
+
+6] What is a Button Group, and what is the class for a basic Button Group?
+ans> “btn-group” which is used to create a series of buttons in groups (without spaces) vertically or horizontally
+
+7]How can you use Bootstrap to make thumbnails?
+ans>Bootstrap - Thumbnails · Add an <a> tag with the class of .thumbnail around an image. · This adds four pixels of padding and a gray border. · On hover, an animated ..
+
+8]In Bootstrap 4, what is flexbox?
+ans>Bootstrap 4 now uses flexbox, instead of floats, to handle the layout. 
+
+9]How can one create an alert in Bootstrap?
+ans>Bootstrap provides an easy way to create predefined alert messages: × Success! This alert box indicates a successful or positive action. × Info! This alert box ...
+
+10]What is a bootstrap card and how would you create one? 
+ans>A basic Bootstrap card consists of a . card class with the . card-body class, allowing you to add text, images, links, and other Bootstrap elements within a rounded border
+
+  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
